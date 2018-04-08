@@ -1,0 +1,41 @@
+body{
+	font-family: "Arial";
+	background-color: #00254C;
+	color: #C59353;
+}
+
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #C59353;
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #C59353;
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #C59353;
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+a:active {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #C59353;
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
