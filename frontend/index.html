@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+	<head>
+		<link rel="StyleSheet" href="style.css" type="text/css"/>
+		<title>Agora</title>
+		<center><img src="img/agora.png"></center>
+	</head>
+
+	<body  onload="flash();">
+		<script>
+			function flash() {
+    		var text = document.getElementById('blinking');
+    		text.style.color = (text.style.color=='white') ? '#C59353':'white';
+			}
+			var clr = setInterval(flash, 1000);
+		</script>
+		<div id="blinking"><center><h2>(AKA Your Go-to Big Fat Greek Calendar)</h2></center></div>
+		<center><h1>Click on the links below to check out Greek events happening on campus!</h1></center>
+		<center><p><a class="calbutton" href="philanthropy.html">Philanthropy Events</a></p></center>
+		<center><p><a class="calbutton" href="nongreek.html">Non-Greek Events</a></p></center>
+		<center><p><a class="calbutton" href="social.html">Social Events</a></p></center>
+		<center><p><a class="calbutton" href="sports.html">Varsity and Club Sport Events</a></p></center>
+		<center><p><a class="calbutton" href="gwhc.html">Greek Week and Homecoming Events</a></p></center>
+
+		<div class="imgrow">
+			<div class="imgcolumn">
+				<a href="philanthropy.html"><img src="img/philanthropy.jpg" alt="Pic"></a>
+				<a href="nongreek.html"><img src="img/nongreek.png" alt="Pic"></a>
+				<a href="social.html"><img src="img/social.png" alt="Pic"></a>
+				<a href="sports.html"><img src="img/sports.jpg" alt="Pic"></a>
+				<a href="gwhc.html"><img src="img/tug.jpg" alt="Pic"></a>
+			</div>
+		</div>
+
+		<center><h2>Want to add an event to our calendar? Fill out the form below:</h2></center>
+		<center><form>
+			<p>First Name: <input type="text" placeholder="First Name" name="fname"></p>
+			<p>Last Name: <input type="text" placeholder="Last Name" name="lname"></p>
+			<p>Email: <input type="email" name="email"></p>
+			<p>Event Name: <input type="text" placeholder="Event Name" name="eventname"></p>
+			<p>Event Type:
+				<select>
+					<option>Philanthropy</option>
+					<option>Non-Greek</option>
+					<option>Social</option>
+					<option>Sport</option>
+					<option>Greek Week/Homecoming</option>
+				</select>
+			</p>
+			<p>Event Date: <input type="date" name="eventdate"></p>
+			<p>Start Time: <input type="time" name="starttime"></p>
+			<p>End Time: <input type="time" name="endtime"></p>
+			<p>Location: <input type="text" name="location"></p>
+			<p>Event Description: <textarea name="eventdecription" cols="40" rows="5"></textarea></p>
+			<p><input type="submit" value="Submit"></p>
+		</form></center>
+	</body>

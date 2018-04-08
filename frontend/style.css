@@ -1,0 +1,91 @@
+body{
+	font-family: "Arial";
+	background-color: rgb(0, 48, 87);
+	color: #C59353;
+}
+
+.calbutton:link, .calbutton:visited {
+    background-color: #C59353;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.calbutton:hover, .calbutton:active {
+    background-color: #C59353;
+}
+/*.calbutton {
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px #C59353;
+}*/
+/*.calbutton a:link {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #C59353;
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+}*/
+
+/*.calbutton a:visited {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #C59353;
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.calbutton a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #C59353;
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.calbutton a:active {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #C59353;
+	padding: 5px 10px;
+    text-align: center;
+    border-radius: 25px;
+}*/
+
+.imgrow {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 4px;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+.imgcolumn {
+	flex: 20%;
+	padding: 0px 10px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 20%;
+}
+
+img {
+	max-width: 50%;
+	max-height: 50%;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
