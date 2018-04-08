@@ -1,18 +1,37 @@
+<!doctype html>
 <html>
 
 	<head>
 		<link rel="StyleSheet" href="style.css" type="text/css"/>
 		<title>Agora</title>
-		<center><h1>GT Events Website</h1></center>
+		<center><img src="img/agora.png"></center>
 	</head>
 
-	<body>
-		<center><h2>Click on the links below to check out Greek events happening on campus!</h2></center>
+	<body  onload="flash();">
+		<script>
+			function flash() {
+    		var text = document.getElementById('blinking');
+    		text.style.color = (text.style.color=='white') ? 'gold':'white';
+			}
+			var clr = setInterval(flash, 1000);
+		</script>
+		<div id="blinking"><center><h2>(AKA Your Go-to Big Fat Greek Calendar)</h2></center></div>
+		<center><h1>Click on the links below to check out Greek events happening on campus!</h1></center>
 		<center><p><a href="philanthropy.html">Philanthropy Events</a></p></center>
 		<center><p><a href="nongreek.html">Non-Greek Events</a></p></center>
 		<center><p><a href="social.html">Social Events</a></p></center>
 		<center><p><a href="sports.html">Varsity and Club Sport Events</a></p></center>
 		<center><p><a href="gwhc.html">Greek Week and Homecoming</a></p></center>
+
+		<div class="imgrow">
+			<div class="imgcolumn">
+				<img src="img/philanthropy.jpg" alt="Pic">
+				<img src="img/nongreek.png" alt="Pic">
+				<img src="philanthropy.jpg" alt="Pic">
+				<img src="philanthropy.jpg" alt="Pic">
+				<img src="img/tug.jpg" alt="Pic">
+			</div>
+		</div>
 
 		<center><h2>Want to add an event to our calendar? Fill out the form below:</h2></center>
 		<center><form>
